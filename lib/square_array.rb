@@ -3,5 +3,6 @@ def square_array(array)
   sqr_numbers = []
   while array[counter] do 
     sqr_numbers << array[count] * array[count] 
-    
-end
+    count += 1
+    end
+  end
