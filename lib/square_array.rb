@@ -4,5 +4,6 @@ def square_array(array)
   while array[count] do 
     sqr_numbers << (array[count] * array[count] 
     count += 1
+  end
     sqr_numbers
   end
